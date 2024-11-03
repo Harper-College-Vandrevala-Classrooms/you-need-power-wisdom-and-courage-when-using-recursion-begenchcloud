@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.csc.TestTriangleNumberCalculator" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-10-21T01:46:25" hostname="BENS-LAPTOP" time="0.013">
+<testsuite name="com.csc.TestTriangleNumberCalculator" tests="6" skipped="0" failures="0" errors="0" timestamp="2024-11-03T21:44:30" hostname="BENS-LAPTOP" time="0.017">
   <properties/>
-  <testcase name="testAddMethod()" classname="com.csc.TestTriangleNumberCalculator" time="0.01"/>
+  <testcase name="testTriangularNumber()" classname="com.csc.TestTriangleNumberCalculator" time="0.011"/>
+  <testcase name="testAddMethod()" classname="com.csc.TestTriangleNumberCalculator" time="0.0"/>
   <testcase name="testSubtractMethod()" classname="com.csc.TestTriangleNumberCalculator" time="0.0"/>
-  <testcase name="testValueMethod()" classname="com.csc.TestTriangleNumberCalculator" time="0.001"/>
+  <testcase name="testDivide()" classname="com.csc.TestTriangleNumberCalculator" time="0.001"/>
+  <testcase name="testMultiply()" classname="com.csc.TestTriangleNumberCalculator" time="0.0"/>
+  <testcase name="testValueMethod()" classname="com.csc.TestTriangleNumberCalculator" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

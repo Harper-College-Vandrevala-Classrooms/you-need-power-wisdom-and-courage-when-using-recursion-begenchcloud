@@ -17,4 +17,21 @@ public class TriangleNumberCalculator {
     return value(n) - value(m);
   }
 
+  public static int triangularNumber(int n) {
+    return n * (n + 1) / 2;
+}
+
+public static int multiply(int n, int m) {
+    int tn = triangularNumber(n);
+    int tm = triangularNumber(m);
+    return tn * tm;
+}
+
+public static double divide(int n, int m) {
+  int tn = triangularNumber(n);
+  int tm = triangularNumber(m);
+
+  return (double) tn / tm;
+}
+
 }
